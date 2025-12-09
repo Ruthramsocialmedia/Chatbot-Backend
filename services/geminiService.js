@@ -266,7 +266,7 @@ VERY IMPORTANT:
 - DO NOT remove important words.
 
 You MAY:
-- Fix misspellings: "texxt" → "text", "bukks" → "books" , "conatct" → "contact".
+Correct spelling mistakes exactly, but do not alter the meaning, replace nouns, add new words, or change the user’s intent. Fix only obvious typos, such as “texxt” → “text”, “bukks” → “books”, “conatct” → “contact”, "conatct" → "contact", "deils" → "details".
 - Combine obvious pairs: "text books" → "textbooks" (same meaning).
 - Fix simple English grammar if needed.
 

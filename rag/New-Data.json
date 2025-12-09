@@ -1,0 +1,1547 @@
+[
+  {
+    "intent": "nri_admission_acceptance",
+    "questions": [
+      "Does Montfort School accept NRI students?",
+      "Are NRI students eligible for admission?",
+      "Can Non-Resident Indian students apply here?",
+      "Is the school open for NRI admissions?",
+      "Do you take admission for NRI children?",
+      "Are NRI applicants allowed in Montfort?",
+      "Can students from abroad join this school?",
+      "Is admission available for foreign/NRI students?",
+      "Do you welcome NRI students in all classes?"
+    ],
+    "answer": "Yes, NRI students are welcome to apply for all classes based on seat availability."
+  },
+  {
+    "intent": "nri_process_difference",
+    "questions": [
+      "Is the admission process different for NRI students?",
+      "Do NRI students follow a separate admission procedure?",
+      "Is there a special process for NRI applications?",
+      "Are NRI admissions handled differently?",
+      "Do NRIs have additional steps in the admission process?",
+      "Does NRI admission require extra procedures?",
+      "Is there any variation in process for NRI applicants?",
+      "Does the school have separate rules for NRI admissions?",
+      "Are the requirements different for NRI children?"
+    ],
+    "answer": "The basic process is the same, but NRI documents may include passport and visa copies."
+  },
+  {
+    "intent": "nri_classes_available",
+    "questions": [
+      "What classes are open for NRI admissions?",
+      "Which class levels accept NRI students?",
+      "From which class can NRI students apply?",
+      "Is LKG to 10th open for NRI admission?",
+      "Are all classes available for NRI students?",
+      "Can NRI students join from LKG onwards?",
+      "Up to which class do you take NRI admissions?",
+      "What grade levels can NRI children be admitted to?",
+      "Are NRI admissions available across all sections?"
+    ],
+    "answer": "NRI admissions are open from LKG to Class 10, depending on seat availability."
+  },
+  {
+    "intent": "nri_online_application",
+    "questions": [
+      "Can NRI students apply online?",
+      "Is online admission available for NRI parents?",
+      "Can NRIs submit applications through the website?",
+      "Is online enquiry possible for NRI admission?",
+      "Can I apply from abroad for my child’s admission?",
+      "Is online registration allowed for NRI students?",
+      "Can NRI parents complete admission formalities online?",
+      "Does the school accept online forms from NRI families?",
+      "Can NRIs contact the school remotely for admission?"
+    ],
+    "answer": "Yes, NRI parents can enquire or apply through the school website or by contacting the office."
+  },
+  {
+    "intent": "nri_entrance_test",
+    "questions": [
+      "Do NRI students need an entrance test?",
+      "Is there an assessment for NRI applicants?",
+      "Must NRI children take an admission test?",
+      "Is a written/online test required for NRI students?",
+      "Do NRIs have to attend an evaluation exam?",
+      "Is academic assessment compulsory for NRI admissions?",
+      "Are NRI students selected through a test?",
+      "Does the school conduct exams for NRI applicants?",
+      "Is testing needed for NRI students during admission?"
+    ],
+    "answer": "Yes, NRI students may need to take an assessment based on class level."
+  },
+
+  {
+    "intent": "nri_required_documents",
+    "questions": [
+      "What documents are required for NRI admissions?",
+      "Which papers should NRI students submit?",
+      "What are the mandatory documents for NRI children?",
+      "Do you need passport and visa copies for NRIs?",
+      "What documents must NRI parents provide?",
+      "What paperwork is needed for NRI student entry?",
+      "List the documents required for NRI applicants?",
+      "Are birth certificate and report cards needed for NRIs?",
+      "What all should NRI students submit during admission?"
+    ],
+    "answer": "Passport copy, visa copy, transfer certificate, birth certificate, and previous school report card."
+  },
+
+  {
+    "intent": "nri_tc_required",
+    "questions": [
+      "Is a Transfer Certificate necessary for NRI students?",
+      "Do NRI students need to submit a TC?",
+      "Is TC mandatory for NRI admission?",
+      "Do NRIs have to bring a transfer certificate?",
+      "Is a school TC required for NRI applicants?",
+      "Must NRI children provide a TC?",
+      "Is a TC compulsory for classes except LKG?",
+      "Do you accept NRI students without a TC?",
+      "Is TC part of the admission requirement for NRIs?"
+    ],
+    "answer": "Yes, a valid TC is required for admission to all classes except LKG."
+  },
+
+  {
+    "intent": "nri_admission_without_tc",
+    "questions": [
+      "Can NRI students be admitted without a TC?",
+      "Is temporary admission allowed without a TC?",
+      "Can NRIs join first and submit TC later?",
+      "Is provisional admission possible for NRIs without TC?",
+      "Can NRI parents submit TC after admission?",
+      "Will the school confirm admission only after TC?",
+      "Is TC essential for final admission of NRIs?",
+      "Do you allow NRI students to join before giving TC?",
+      "Can TC be submitted later for NRI students?"
+    ],
+    "answer": "Temporary admission may be considered, but TC is required for confirmation."
+  },
+
+  {
+    "intent": "nri_previous_report_card",
+    "questions": [
+      "Are previous school report cards required for NRI students?",
+      "Do NRIs need to submit academic records?",
+      "Is the last report card compulsory for NRI admission?",
+      "Should NRI children bring previous marksheets?",
+      "Are school progress reports mandatory for NRIs?",
+      "Must NRIs provide previous class records?",
+      "Do academic reports need to be submitted by NRI students?",
+      "Is the previous year’s report card necessary?",
+      "Are NRI applicants required to show their past performance?"
+    ],
+    "answer": "Yes, recent academic report cards are mandatory."
+  },
+
+  {
+    "intent": "nri_local_guardian_required",
+    "questions": [
+      "Is a local guardian required for NRI students?",
+      "Must NRI children have a guardian in India?",
+      "Do NRIs need to appoint a local guardian?",
+      "Is guardian information compulsory for NRI admissions?",
+      "Should NRI students have someone responsible in India?",
+      "Is a guardian mandatory for communication and emergencies?",
+      "Can students stay without a local guardian?",
+      "Do you need guardian details for NRI applicants?",
+      "Is a guardian required if parents live abroad?"
+    ],
+    "answer": "Yes, NRI students must have a guardian in India for communication and emergencies."
+  },
+
+  {
+    "intent": "nri_parent_authorization",
+    "questions": [
+      "Can NRI parents authorize someone to complete admission formalities?",
+      "Is parental authorization allowed for NRIs?",
+      "Can a relative finish admission steps for NRI students?",
+      "Are authorised guardians allowed to submit documents?",
+      "Can NRI parents give signed consent for someone else?",
+      "Is proxy admission permitted for NRIs?",
+      "Can admission be done by a guardian on behalf of NRI parents?",
+      "Can NRIs delegate admission paperwork?",
+      "Is third-party authorization accepted for NRI admission?"
+    ],
+    "answer": "Yes, parents can authorize a relative or guardian with a signed consent."
+  },
+
+  {
+    "intent": "nri_interview_requirement",
+    "questions": [
+      "Are admission interviews conducted for NRI students?",
+      "Do NRI students need to attend an interview?",
+      "Is an interaction required for NRI applicants?",
+      "Must NRIs have an admission meeting?",
+      "Are interviews part of NRI admissions?",
+      "Do you conduct student interactions for NRIs?",
+      "Is an admission discussion needed for NRI children?",
+      "Do NRIs have in-person or online interviews?",
+      "Is interview compulsory for NRI students?"
+    ],
+    "answer": "Yes, an interaction or online meeting may be arranged for the student."
+  },
+
+  {
+    "intent": "nri_online_interview",
+    "questions": [
+      "Can NRI students attend the interview online?",
+      "Is online interview available for NRI applicants?",
+      "Can the admission interaction be done virtually?",
+      "Do you allow video call interviews for NRIs?",
+      "Is online meeting possible for NRI students?",
+      "Can NRIs join the interview through video call?",
+      "Are remote interviews arranged for NRI students?",
+      "Can interview be done digitally for NRI applicants?",
+      "Is virtual interaction permitted for NRI admission?"
+    ],
+    "answer": "Yes, an online interview may be arranged based on availability."
+  },
+
+  {
+    "intent": "nri_hostel_priority",
+    "questions": [
+      "Are NRI students given preference for hostel?",
+      "Do NRIs get priority in hostel allocation?",
+      "Is hostel seat priority available for NRI children?",
+      "Do NRI students have higher chance of hostel admission?",
+      "Does the hostel prefer NRI applicants?",
+      "Is hostel accommodation prioritized for NRIs?",
+      "Do NRI students usually get hostel seats?",
+      "Are NRI students considered first for hostel allotment?",
+      "Does hostel availability favor NRI children?"
+    ],
+    "answer": "Yes, NRI students often receive priority for hostel accommodation."
+  },
+
+  {
+    "intent": "nri_medical_certificate",
+    "questions": [
+      "Do NRI students need a medical certificate?",
+      "Is a health certificate required for NRI applicants?",
+      "Must NRI students submit medical documents?",
+      "Is medical clearance compulsory for NRIs?",
+      "Do NRIs need to provide a health certificate?",
+      "Is basic medical information required for NRI admission?",
+      "Should NRI students submit a medical fitness certificate?",
+      "Are medical records mandatory for NRI applicants?",
+      "Do NRI students have to show proof of health?"
+    ],
+    "answer": "Yes, a basic health/medical certificate is required."
+  },
+
+  {
+    "intent": "nri_age_criteria",
+    "questions": [
+      "What is the age requirement for NRI admissions?",
+      "Do NRIs follow the same age criteria?",
+      "Is the age limit same for NRI students?",
+      "Are NRI children admitted based on regular age rules?",
+      "Do you have different age rules for NRI applicants?",
+      "What age should an NRI child be for each class?",
+      "Are age guidelines same for Indian and NRI students?",
+      "Is class-wise age criteria uniform for NRIs?",
+      "Does age eligibility remain same for NRIs?"
+    ],
+    "answer": "The same age criteria as Indian students apply for each class."
+  },
+
+  {
+    "intent": "nri_fee_difference",
+    "questions": [
+      "Are NRI fees higher than regular fees?",
+      "Do NRI students have a different fee structure?",
+      "Is there a separate fee for NRI admissions?",
+      "Do NRIs pay more than local students?",
+      "Is NRI fee structure different?",
+      "Are fees for NRI students charged separately?",
+      "Does the school have special fees for NRIs?",
+      "Do NRI applicants pay a higher amount?",
+      "Are NRI students billed differently?"
+    ],
+    "answer": "NRI students may have a different fee structure depending on school policy."
+  },
+
+  {
+    "intent": "nri_fee_payment_from_abroad",
+    "questions": [
+      "How can NRI parents pay fees from abroad?",
+      "Is international fee payment accepted?",
+      "Can NRIs pay school fees online?",
+      "Do you allow foreign bank transfers for fees?",
+      "How do parents abroad send fee payments?",
+      "Can NRI parents use international payment modes?",
+      "Are overseas transactions accepted for fee payment?",
+      "Do you support online transfer for NRI payments?",
+      "Can NRI fees be paid from outside India?"
+    ],
+    "answer": "Fees can be paid via online transfer, bank transfer, or international payment modes."
+  },
+
+  {
+    "intent": "nri_annual_payment",
+    "questions": [
+      "Can NRI parents pay fees annually?",
+      "Is yearly payment allowed for NRIs?",
+      "Can fees be paid in one yearly payment by NRIs?",
+      "Do NRIs have annual fee options?",
+      "Is full-year fee payment accepted for NRI students?",
+      "Can NRI families choose annual payment plans?",
+      "Do NRIs have term-wise and yearly fee options?",
+      "Is annual fee mode available for NRI parents?",
+      "Do NRI students allow lump-sum fee payment?"
+    ],
+    "answer": "Yes, NRI parents may choose annual or term-wise payment."
+  },
+
+  {
+    "intent": "nri_fee_refund",
+    "questions": [
+      "Are NRI fee refunds possible?",
+      "Can NRI parents request fee refund?",
+      "Do you offer refunds for NRI students?",
+      "Is refund available for NRI fee payments?",
+      "Can NRIs get money back if admission is canceled?",
+      "What is the refund rule for NRI applicants?",
+      "Do NRI refunds follow school policy?",
+      "Are refunds allowed for NRI fee payments?",
+      "Can NRI parents apply for refund in writing?"
+    ],
+    "answer": "Refunds follow school rules and must be requested in writing."
+  },
+
+  {
+    "intent": "nri_hostel_compulsory",
+    "questions": [
+      "Is hostel compulsory for NRI students?",
+      "Do NRIs have to stay in hostel?",
+      "Must NRI students take hostel accommodation?",
+      "Is hostel mandatory for NRI applicants?",
+      "Can NRI students study without staying in hostel?",
+      "Is residential stay compulsory for NRI children?",
+      "Do NRIs need to join the hostel?",
+      "Is hostel required for NRI admission?",
+      "Can NRI children be day scholars?"
+    ],
+    "answer": "No, hostel is optional but highly recommended for NRI students."
+  },
+
+  {
+    "intent": "nri_relative_stay",
+    "questions": [
+      "Can NRI students stay with relatives instead of hostel?",
+      "Are NRIs allowed to stay outside the hostel?",
+      "Can NRI children live with family in India?",
+      "Do NRI parents choose relatives for student stay?",
+      "Is outside accommodation allowed for NRIs?",
+      "Can NRI students be day boarders living with relatives?",
+      "Is guardian-based stay approved for NRI students?",
+      "Can students avoid hostel by staying with relatives?",
+      "Are relatives allowed to take care of NRI children?"
+    ],
+    "answer": "Yes, if the parent provides full guardian authorization."
+  },
+
+  {
+    "intent": "nri_hostel_weekend_visit",
+    "questions": [
+      "Are NRI students allowed hostel visit on weekends?",
+      "Can NRI children meet family on weekends?",
+      "Are weekend visits permitted for NRIs?",
+      "Can NRIs go for weekend outings?",
+      "Does hostel allow weekend visiting hours?",
+      "Are NRI students permitted for weekend leave?",
+      "Can students see parents during weekends?",
+      "Do hostel rules allow weekend visits?",
+      "Are weekend visits restricted for NRIs?"
+    ],
+    "answer": "Hostel visits are allowed based on hostel rules and timings."
+  },
+
+  {
+    "intent": "nri_parent_visit",
+    "questions": [
+      "Can NRI parents visit students anytime?",
+      "Are parent visits allowed anytime for NRIs?",
+      "Do NRIs have fixed visiting hours to meet children?",
+      "Can parents abroad meet their child anytime?",
+      "Are there restrictions on NRI parent visits?",
+      "Must parents follow hostel timing for visits?",
+      "Can parents meet hostel students freely?",
+      "Is anytime visit allowed for NRI parents?",
+      "Do hostel rules apply for NRI parent visits?"
+    ],
+    "answer": "Visits must follow hostel visiting hours."
+  },
+
+  {
+    "intent": "nri_airport_pickup",
+    "questions": [
+      "Is airport pickup provided for NRI students?",
+      "Do you arrange airport transportation for NRIs?",
+      "Does the school pick up NRI students from airport?",
+      "Is pickup facility available for students arriving from abroad?",
+      "Can the school arrange airport drop or pickup?",
+      "Do NRI students get airport pick and drop service?",
+      "Does the school help in airport arrival arrangements?",
+      "Are NRI students offered airport pickup by the school?",
+      "Do parents have to arrange airport transport?"
+    ],
+    "answer": "Parents must arrange transport; school does not provide airport pickup."
+  },
+
+  {
+    "intent": "nri_mid_year_admission",
+    "questions": [
+      "Can NRI students join mid-year?",
+      "Do you allow mid-term admission for NRI students?",
+      "Is mid-session entry possible for NRI applicants?",
+      "Can NRIs get admission in the middle of the year?",
+      "Is mid-academic year joining allowed for NRI kids?",
+      "Can an NRI student join after the session has started?",
+      "Do you accept NRI students during the term?",
+      "Is mid-year enrolment open for NRIs?",
+      "Can NRIs seek admission halfway through the year?"
+    ],
+    "answer": "Mid-year admissions may be considered based on availability and eligibility."
+  },
+
+  {
+    "intent": "nri_academic_support",
+    "questions": [
+      "Do NRI students get academic support if they come from a different curriculum?",
+      "Will teachers help NRI children adjust to ICSE?",
+      "Is support given to NRIs from other education systems?",
+      "Do NRI students receive help adapting to ICSE syllabus?",
+      "Are curriculum transition support sessions available for NRI kids?",
+      "Will school assist NRIs shifting from foreign boards?",
+      "Is special academic guidance provided for NRI students?",
+      "Do teachers help NRIs understand ICSE subjects?",
+      "Is ICSE adjustment support available for NRI applicants?"
+    ],
+    "answer": "Yes, teachers help them adjust to the ICSE curriculum."
+  },
+
+  {
+    "intent": "nri_icse_exam_requirement",
+    "questions": [
+      "Do NRI students need to write ICSE board exams?",
+      "Must NRI children appear for ICSE Class 10 exams?",
+      "Are NRIs required to take ICSE board exams after admission?",
+      "Do foreign-return students write ICSE 10th exams?",
+      "Is ICSE board registration mandatory for NRI Class 10 students?",
+      "Are NRIs also part of ICSE board exam requirements?",
+      "Do NRI students follow the same board exam rules?",
+      "Do Class 10 NRIs write ICSE like others?",
+      "Must NRI students sit for ICSE if they join Class 10?"
+    ],
+    "answer": "Yes, Class 10 students registered with the school must write ICSE board exams."
+  },
+
+  {
+    "intent": "nri_adjustment_difficulty",
+    "questions": [
+      "Do NRI students face difficulty adjusting?",
+      "Is it hard for NRIs to adapt to the school environment?",
+      "Do NRI children struggle initially?",
+      "Do students from abroad face adjustment issues?",
+      "Is adapting to school life difficult for NRI kids?",
+      "Do NRIs take time to settle in?",
+      "Are adjustment problems common for NRI students?",
+      "Do most NRI students adapt easily?",
+      "Is the adjustment process smooth for NRI students?"
+    ],
+    "answer": "Most students adjust easily with school support and guidance."
+  },
+
+  {
+    "intent": "nri_extra_classroom_care",
+    "questions": [
+      "Are NRI students given extra care in the classroom?",
+      "Do teachers give extra attention to NRI children?",
+      "Is additional support provided for NRIs in class?",
+      "Do NRI students get help during initial weeks?",
+      "Are teachers supportive towards NRI newcomers?",
+      "Is special classroom care given to NRI kids?",
+      "Do NRIs receive guidance when settling in?",
+      "Does the school offer extra academic care for NRIs?",
+      "Is initial support provided for NRI students?"
+    ],
+    "answer": "Teachers provide support wherever needed, especially during initial weeks."
+  },
+
+  {
+    "intent": "nri_choose_second_language",
+    "questions": [
+      "Can NRI students choose Tamil or Hindi as second language?",
+      "Do NRIs have options for second language?",
+      "Can NRI children select Tamil/Hindi based on preference?",
+      "Are language choices open for NRI students?",
+      "Can NRIs decide their second language?",
+      "Do NRI applicants get to pick Tamil or Hindi?",
+      "Is second language choice flexible for NRI students?",
+      "Can NRI children choose their preferred language?",
+      "Are Tamil and Hindi both available for NRIs?"
+    ],
+    "answer": "Yes, they can choose based on preference and class level."
+  },
+
+  {
+    "intent": "nri_language_support",
+    "questions": [
+      "Can NRI students take special support for Tamil or Hindi?",
+      "Is extra help available for NRIs in Tamil/Hindi?",
+      "Do you offer special language classes for NRI children?",
+      "Can NRIs get additional language coaching?",
+      "Is language adjustment support provided to NRI students?",
+      "Do teachers help NRI students learn Tamil/Hindi?",
+      "Is remedial language support arranged for NRIs?",
+      "Can NRIs receive help to improve second language?",
+      "Is special coaching possible for NRI students in Tamil/Hindi?"
+    ],
+    "answer": "Additional support may be arranged depending on availability."
+  },
+
+  {
+    "intent": "nri_medium_of_instruction",
+    "questions": [
+      "Is English the main medium of instruction?",
+      "Do you teach all subjects in English?",
+      "Is English used as the language of teaching?",
+      "Are classes conducted in English for all students?",
+      "Is the school English-medium?",
+      "Are NRIs taught in English?",
+      "Is instruction fully English-based?",
+      "Do teachers teach every subject in English?",
+      "Is English the primary teaching language?"
+    ],
+    "answer": "Yes, all subjects are taught in English."
+  },
+
+  {
+    "intent": "nri_change_second_language",
+    "questions": [
+      "Are NRI students allowed to change second language after joining?",
+      "Can NRIs switch their second language later?",
+      "Is language change permitted for NRI students?",
+      "Can NRI children change Tamil/Hindi after admission?",
+      "Are second language changes possible in lower classes?",
+      "Is shifting language allowed after joining for NRIs?",
+      "Can foreign-return students modify their language choice?",
+      "Do you allow switching second language in early grades?",
+      "Is language change restricted to lower classes only?"
+    ],
+    "answer": "Language change may be allowed only in lower classes."
+  },
+
+  {
+    "intent": "nri_subject_requirements",
+    "questions": [
+      "Do NRI students have to learn the same subjects as regular students?",
+      "Are NRI children required to follow ICSE subjects?",
+      "Do NRIs study the same subjects as others?",
+      "Are subject requirements identical for NRI students?",
+      "Do foreign-return kids follow the full ICSE curriculum?",
+      "Must NRI students learn all ICSE subjects?",
+      "Is syllabus same for NRI and Indian students?",
+      "Do NRIs follow the exact ICSE structure?",
+      "Are subject rules the same for NRIs?"
+    ],
+    "answer": "Yes, all ICSE requirements apply to NRI students."
+  },
+
+  {
+    "intent": "nri_first_day_guardian",
+    "questions": [
+      "Is parent presence required on the first day of school for NRIs?",
+      "Must a parent be present on first day if living abroad?",
+      "Do NRIs need a guardian on the first school day?",
+      "Who should accompany NRI students on the first day?",
+      "Is adult presence required for NRI children on Day 1?",
+      "Do NRIs need someone with them on school reopening day?",
+      "Must NRI students come with a guardian initially?",
+      "Can a guardian represent parents on the first day?",
+      "Is guardian presence compulsory if parents are abroad?"
+    ],
+    "answer": "A guardian must accompany if parents are abroad."
+  },
+
+  {
+    "intent": "nri_ptm_online",
+    "questions": [
+      "Can NRI parents attend PTM online?",
+      "Do you provide virtual PTM for NRI parents?",
+      "Are online parent-teacher meetings available?",
+      "Can parents abroad join PTM digitally?",
+      "Is remote PTM option given for NRI guardians?",
+      "Do NRIs get online meetings with teachers?",
+      "Can PTM be scheduled online for NRI families?",
+      "Is virtual PTM offered depending on availability?",
+      "Are online PTMs arranged for NRI parents?"
+    ],
+    "answer": "Some meetings may be arranged online depending on the school."
+  },
+
+  {
+    "intent": "nri_academic_updates",
+    "questions": [
+      "How will NRI parents receive academic updates?",
+      "Do NRIs get progress updates online?",
+      "How are results shared with NRI parents?",
+      "How does the school communicate academic updates abroad?",
+      "Through which channels do NRIs get student reports?",
+      "How do parents overseas track their child’s academics?",
+      "Are updates shared via email or portal for NRIs?",
+      "How does school notify NRI parents about academics?",
+      "Do NRIs get regular academic communication?"
+    ],
+    "answer": "Updates are shared through email, phone, or parent portal."
+  },
+
+  {
+    "intent": "nri_contact_teachers",
+    "questions": [
+      "How can NRI parents contact teachers?",
+      "Can NRIs speak with teachers online?",
+      "Do you allow email communication with teachers?",
+      "How do overseas parents reach teachers?",
+      "Are scheduled calls with teachers available?",
+      "Can NRI parents contact the office to talk to teachers?",
+      "What is the communication method for NRI parents?",
+      "Is teacher contact possible through email or phone?",
+      "Can NRIs request teacher meetings online?"
+    ],
+    "answer": "Through email, school office, or scheduled calls."
+  },
+
+  {
+    "intent": "nri_online_event_access",
+    "questions": [
+      "Can NRI parents join school events online?",
+      "Do you offer online viewing for school functions?",
+      "Are virtual event links available for NRIs?",
+      "Can parents abroad watch events digitally?",
+      "Do NRIs get online access to school programmes?",
+      "Is livestreaming provided for school events?",
+      "Can NRI parents see important events online?",
+      "Are video links shared for parents abroad?",
+      "Do school events have online access for NRIs?"
+    ],
+    "answer": "Some events may allow online viewing if available."
+  },
+
+  {
+    "intent": "nri_hostel_uniform",
+    "questions": [
+      "Is uniform available in hostel for NRI students?",
+      "Can NRIs get uniforms inside the hostel?",
+      "Do you arrange uniforms for hostel students?",
+      "Are uniforms provided through school vendor?",
+      "Can hostel students purchase uniform on campus?",
+      "Is uniform supply arranged for NRI hostelers?",
+      "Are uniforms delivered to hostel students?",
+      "Do NRIs receive uniform support at hostel?",
+      "Can uniform be bought via the school’s vendor?"
+    ],
+    "answer": "Yes, uniforms can be arranged through the school vendor."
+  },
+
+  {
+    "intent": "nri_books_online_order",
+    "questions": [
+      "Can NRI parents order books and stationery online?",
+      "Do school vendors provide online purchase for books?",
+      "Can NRIs buy books through online stores?",
+      "Is remote ordering available for school books?",
+      "Can parents abroad order materials online?",
+      "Do NRI children get stationery through online vendors?",
+      "Can textbooks be purchased via online suppliers?",
+      "Is online book ordering supported for NRIs?",
+      "Are school-approved vendors selling books online?"
+    ],
+    "answer": "Yes, school-approved vendors may provide online ordering."
+  },
+
+  {
+    "intent": "nri_textbook_availability",
+    "questions": [
+      "Are textbooks available at school for NRI students?",
+      "Can NRIs buy books directly at school?",
+      "Is textbook purchase available on campus?",
+      "Do you sell notebooks and textbooks in school?",
+      "Are study materials given at the school store?",
+      "Can parents buy all books from school?",
+      "Do NRI students get textbooks from the school?",
+      "Is all study material available on campus?",
+      "Can NRIs purchase notebooks directly at school?"
+    ],
+    "answer": "Yes, all textbooks and notebooks can be purchased at the school."
+  },
+
+  {
+    "intent": "nri_track_performance",
+    "questions": [
+      "How do NRI parents track student performance?",
+      "How are results shared with NRIs?",
+      "Where can NRI parents see performance reports?",
+      "Do NRIs get performance updates through portal?",
+      "How is student progress communicated abroad?",
+      "How do parents overseas monitor performance?",
+      "Are performance reports sent by email?",
+      "How does school update NRIs on progress?",
+      "Can NRIs track academics via parent portal?"
+    ],
+    "answer": "Through school reports, emails, and the parent portal."
+  },
+
+  {
+    "intent": "nri_leave_rules",
+    "questions": [
+      "Are NRI students allowed leave during the academic year?",
+      "Can NRIs take leave with permission?",
+      "Do you grant leave for NRI students?",
+      "Is leave permitted for NRI kids with valid reason?",
+      "Can NRI children take leave during the term?",
+      "Do NRIs need prior approval for leave?",
+      "Is leave application required for NRI students?",
+      "Are NRI students allowed to travel during school days?",
+      "Do you allow leave for NRI applicants?"
+    ],
+    "answer": "Leave is allowed with valid reason and prior permission."
+  },
+
+  {
+    "intent": "nri_hostel_sickness_care",
+    "questions": [
+      "What happens if an NRI student falls sick in hostel?",
+      "How does the school handle illness of NRI hostelers?",
+      "Do NRI kids get medical care in hostel?",
+      "What is the process when hostel students fall sick?",
+      "How are health issues managed for NRI boarders?",
+      "Does school inform guardians if NRIs fall ill?",
+      "Is hostel medical help available for NRI students?",
+      "Do you arrange healthcare for sick hostel students?",
+      "How is emergency care provided for NRI students?"
+    ],
+    "answer": "The school arranges immediate medical care and informs the guardian."
+  },
+
+  {
+    "intent": "nri_vacation_travel",
+    "questions": [
+      "Can NRI parents take their child home during vacation?",
+      "Are NRI students allowed to travel abroad on holidays?",
+      "Can NRIs go home during school breaks?",
+      "Do NRI children travel home in vacation time?",
+      "Is holiday travel allowed for NRI students?",
+      "Can students fly abroad during holidays?",
+      "Are NRI families permitted to take kids home for vacation?",
+      "Can NRI students spend holidays in home country?",
+      "Do NRI children get vacation leave?"
+    ],
+    "answer": "Yes, students can travel home during holidays."
+  },
+
+  {
+    "intent": "nri_returning_admission",
+    "questions": [
+      "Can NRI students join after returning from abroad?",
+      "Is admission open for students coming back from overseas?",
+      "Do foreign-return students get admission easily?",
+      "Can children returning from abroad rejoin school?",
+      "Are admissions available for returnee NRIs?",
+      "Can students who lived abroad join the school?",
+      "Do NRIs returning to India get admission?",
+      "Is re-admission allowed for students coming from overseas?",
+      "Can students join after moving back to India?"
+    ],
+    "answer": "Yes, students returning from overseas can seek admission."
+  },
+
+  {
+    "intent": "nri_cultural_issues",
+    "questions": [
+      "Do NRI students face cultural issues?",
+      "Are cultural adjustments hard for NRIs?",
+      "Do NRI kids struggle with cultural differences?",
+      "Is the school environment comfortable for NRIs?",
+      "Do foreign-return students face cultural challenges?",
+      "Are NRIs welcomed warmly into school culture?",
+      "Is there cultural difficulty for NRI students?",
+      "Do NRIs find it hard to adjust culturally?",
+      "Is the school supportive towards cultural differences?"
+    ],
+    "answer": "No, the school environment is supportive and diverse."
+  },
+
+  {
+    "intent": "nri_discipline_rules",
+    "questions": [
+      "Is there any difference in discipline rules for NRI students?",
+      "Do NRIs follow the same discipline as others?",
+      "Are discipline rules uniform for NRI and Indian students?",
+      "Do NRI children get different discipline guidelines?",
+      "Is discipline equal for all students?",
+      "Are NRI students subject to the same rules?",
+      "Do NRIs need to follow regular school discipline?",
+      "Is discipline policy common for everyone?",
+      "Do NRI kids follow standard school rules?"
+    ],
+    "answer": "No, all students follow the same school rules and discipline system."
+  },
+  {
+    "intent": "hostel_facility_available",
+    "questions": [
+      "Does Montfort ICSE School have hostel facilities?",
+      "Is hostel available in Montfort ICSE School?",
+      "Do you provide hostel accommodation?",
+      "Is boarding facility offered by the school?",
+      "Does the school have day-cum-boarding options?",
+      "Are hostel services part of Montfort ICSE School?",
+      "Does the campus include hostel buildings?",
+      "Is residential stay available for students?",
+      "Do you provide staying facilities for students?"
+    ],
+    "answer": "Yes, the school offers Day-Cum-Boarding with separate hostels."
+  },
+  {
+    "intent": "hostel_boys_girls_available",
+    "questions": [
+      "Is hostel available for both boys and girls?",
+      "Do you have separate boys and girls hostels?",
+      "Are there hostels for both genders?",
+      "Do boys and girls get separate hostel blocks?",
+      "Is accommodation provided for both boys and girls?",
+      "Does Montfort have gender-specific hostels?",
+      "Are boys and girls allowed in hostel?",
+      "Do you provide hostel for both male and female students?",
+      "Is hostel facility available for all genders?"
+    ],
+    "answer": "Yes, Montfort provides Boys Hostel and Girls Hostel."
+  },
+  {
+    "intent": "hostel_starting_class",
+    "questions": [
+      "From which class can students join hostel?",
+      "What is the minimum class for hostel admission?",
+      "Which grade can start staying in hostel?",
+      "Are primary class students allowed in hostel?",
+      "Can junior students join the hostel?",
+      "From what age/class is hostel open?",
+      "Is hostel available from primary level?",
+      "Do primary students get hostel accommodation?",
+      "Can lower classes join the hostel?"
+    ],
+    "answer": "Hostel admission is available from primary classes onwards."
+  },
+  {
+    "intent": "hostel_admission_procedure",
+    "questions": [
+      "What is the procedure for hostel admission?",
+      "How do parents apply for hostel?",
+      "What are the steps for getting hostel admission?",
+      "How to join the hostel officially?",
+      "What process must be followed for hostel admission?",
+      "How does hostel admission work?",
+      "How can a student be admitted to the hostel?",
+      "What is the hostel enrolment procedure?",
+      "How is hostel seat allotment done?"
+    ],
+    "answer": "Parents must apply through the school office; hostel seats are allotted after verification."
+  },
+  {
+    "intent": "hostel_separate_form",
+    "questions": [
+      "Is there a separate form for hostel admission?",
+      "Do parents need an extra form for hostel?",
+      "Is hostel admission done through an additional application?",
+      "Do you issue a special hostel admission form?",
+      "Is a separate hostel form available at office?",
+      "Do parents fill a different form for hostel?",
+      "Is hostel application form separate from school?",
+      "Does hostel require its own form?",
+      "Is a dedicated form needed for hostel admission?"
+    ],
+    "answer": "Yes, hostel admission uses an additional form available at the school office."
+  },
+  {
+    "intent": "hostel_conversion_day_to_boarder",
+    "questions": [
+      "Can day scholars convert to hostelers later?",
+      "Can a student shift from day scholar to hosteler?",
+      "Is conversion to hostel allowed after joining school?",
+      "Can students move to hostel later in the year?",
+      "Do you allow switching from day scholar to hostel?",
+      "Can parents request hostel stay later?",
+      "Is late conversion to hosteler possible?",
+      "Can students join hostel after starting as day scholars?",
+      "Is changing from day to hostel option allowed?"
+    ],
+    "answer": "Yes, based on room availability."
+  },
+  {
+    "intent": "hostel_seat_limited",
+    "questions": [
+      "Are hostel seats limited?",
+      "Is hostel admission based on limited seats?",
+      "Do you have restricted hostel capacity?",
+      "Are hostel seats few in number?",
+      "Is hostel accommodation limited?",
+      "Do you offer hostel seats on availability only?",
+      "Are there limited rooms in the hostel?",
+      "Is hostel enrollment restricted due to capacity?",
+      "Are seats available only on a limited basis?"
+    ],
+    "answer": "Yes, hostel admission is subject to seat availability."
+  },
+  {
+    "intent": "hostel_first_come_priority",
+    "questions": [
+      "Is hostel admission given on first-come-first-serve?",
+      "Do early applicants get priority for hostel?",
+      "Is hostel seat allotment based on early application?",
+      "Do you follow first-come-first-serve for hostel?",
+      "Does timing of application affect hostel admission?",
+      "Is hostel priority decided by early submission?",
+      "Are early applicants preferred for hostel?",
+      "Is hostel allocation done in order of application?",
+      "Does hostel selection follow timing priority?"
+    ],
+    "answer": "Yes, priority is usually based on early application."
+  },
+  {
+    "intent": "hostel_mid_year_join",
+    "questions": [
+      "Can students join hostel mid-year?",
+      "Is mid-year hostel admission allowed?",
+      "Do you accept hostelers in the middle of the academic year?",
+      "Can a child join hostel partway through the year?",
+      "Is mid-session hostel joining possible?",
+      "Can parents request hostel admission mid-term?",
+      "Do you allow mid-year entry into hostel?",
+      "Is hostel joining allowed after school begins?",
+      "Can students join hostel later in the year?"
+    ],
+    "answer": "Yes, if seats are available."
+  },
+  {
+    "intent": "hostel_nri_eligibility",
+    "questions": [
+      "Are NRI students eligible for hostel?",
+      "Can NRI children apply for hostel stay?",
+      "Do you allow NRIs to stay in hostel?",
+      "Is hostel open for NRI students?",
+      "Are international/NRI students permitted in hostel?",
+      "Can overseas students apply for hostel accommodation?",
+      "Do NRIs get hostel option?",
+      "Is hostel facility available for foreign students?",
+      "Can NRI students become hostelers?"
+    ],
+    "answer": "Yes, NRI and Overseas students can apply for hostel."
+  },
+  {
+    "intent": "hostel_interview_required",
+    "questions": [
+      "Does the school conduct hostel interviews?",
+      "Is any interaction needed for hostel admission?",
+      "Do parents need to attend a hostel interview?",
+      "Is meeting required before confirming hostel?",
+      "Do hostel applicants undergo interaction?",
+      "Is parent-student interaction required for hostel?",
+      "Do you conduct interviews for hostel admission?",
+      "Must parents attend an interview before hostel entry?",
+      "Is discussion with school needed for hostel applicants?"
+    ],
+    "answer": "Basic interaction with parents or guardian may be required."
+  },
+  {
+    "intent": "hostel_meet_warden",
+    "questions": [
+      "Do parents need to meet the warden before joining hostel?",
+      "Is warden meeting compulsory before hostel entry?",
+      "Must parents attend orientation with the warden?",
+      "Do new hostelers meet the warden first?",
+      "Is there a warden introduction session?",
+      "Do parents or guardians interact with the warden before joining?",
+      "Is warden orientation held before hostel admission?",
+      "Do parents get to meet the hostel warden?",
+      "Is warden interaction part of hostel procedure?"
+    ],
+    "answer": "Yes, an orientation meeting with the warden is usually arranged."
+  },
+  {
+    "intent": "hostel_siblings_same_room",
+    "questions": [
+      "Can siblings stay in the same hostel room?",
+      "Are brothers or sisters allowed in same room?",
+      "Can siblings share a hostel room?",
+      "Is same-room accommodation possible for siblings?",
+      "Do you allow sibling room-sharing?",
+      "Can sibling students stay together in hostel?",
+      "May parents request siblings in same room?",
+      "Is sibling room arrangement allowed?",
+      "Can brothers or sisters be allotted the same room?"
+    ],
+    "answer": "Yes, on request and room availability."
+  },
+  {
+    "intent": "hostel_specific_room_request",
+    "questions": [
+      "Can parents request specific hostel rooms?",
+      "Are room preferences accepted?",
+      "Can parents choose a particular hostel room?",
+      "Do you allow room selection requests?",
+      "Can specific room numbers be requested?",
+      "Are preferred rooms allotted to students?",
+      "Is it possible to choose a room during admission?",
+      "Do you consider room preference applications?",
+      "Can parents ask for a particular room type?"
+    ],
+    "answer": "Requests are considered but not guaranteed."
+  },
+  {
+    "intent": "hostel_medical_certificate",
+    "questions": [
+      "Is a medical certificate required for hostel admission?",
+      "Do hostel applicants need a fitness certificate?",
+      "Must students submit medical proof before staying in hostel?",
+      "Do you ask for health certificate for hostel admission?",
+      "Is physical fitness certificate compulsory for hostel?",
+      "Are medical documents needed for hostel entry?",
+      "Do new hostelers need a health check certificate?",
+      "Is medical fitness proof required?",
+      "Do hostel students need doctor certification?"
+    ],
+    "answer": "Yes, a fitness certificate is required."
+  },
+  {
+    "intent": "hostel_renewal_yearly",
+    "questions": [
+      "Are hostel students required to renew admission every year?",
+      "Do hostelers need yearly renewal?",
+      "Is annual renewal needed for hostel stay?",
+      "Must parents re-apply for hostel each year?",
+      "Is hostel seat renewed annually?",
+      "Do students have to renew hostel admission yearly?",
+      "Does hostel require yearly re-registration?",
+      "Is hostel renewal done every academic year?",
+      "Do hostelers confirm seats yearly?"
+    ],
+    "answer": "Yes, hostel seat renewal happens annually."
+  },
+  {
+    "intent": "hostel_mid_year_cancellation",
+    "questions": [
+      "Can hostel seats be cancelled mid-year?",
+      "Is mid-term cancellation of hostel allowed?",
+      "Can parents discontinue hostel in the middle of the year?",
+      "Do you allow hostel withdrawal mid-year?",
+      "Can hostelers leave during the academic session?",
+      "Are mid-session cancellations accepted?",
+      "Can parents cancel hostel stay later in the term?",
+      "Is mid-year exit from hostel allowed?",
+      "Do fees apply if hostel is cancelled mid-year?"
+    ],
+    "answer": "Yes, but fees may apply."
+  },
+  {
+    "intent": "hostel_trial_period",
+    "questions": [
+      "Can new hostel students get a trial period?",
+      "Is there a trial stay option for hostelers?",
+      "Do you offer trial days before confirming hostel?",
+      "Can students try hostel for a few days?",
+      "Is temporary trial period allowed for hostel?",
+      "Do you give trial accommodation for hostel admission?",
+      "Can children test hostel stay before joining?",
+      "Is probation stay allowed for hostel newcomers?",
+      "Do hostelers get a trial phase?"
+    ],
+    "answer": "Not officially; admission is confirmed on joining."
+  },
+  {
+    "intent": "hostel_international_students",
+    "questions": [
+      "Can international students stay in hostel?",
+      "Do foreign students get hostel accommodation?",
+      "Are international students allowed as hostelers?",
+      "Is hostel available for overseas students?",
+      "Can international applicants live in the hostel?",
+      "Are foreign or NRI students permitted in hostel?",
+      "Is boarding provided for students from abroad?",
+      "Do international students receive hostel facility?",
+      "Is hostel open to international students?"
+    ],
+    "answer": "Yes, international and NRI students can stay."
+  },
+  {
+    "intent": "hostel_compulsory_outstation",
+    "questions": [
+      "Is hostel compulsory for outstation students?",
+      "Must students from far places stay in hostel?",
+      "Is hostel mandatory for out-of-town students?",
+      "Do outstation children have to be hostelers?",
+      "Is residential stay required for distant students?",
+      "Is hostel necessary for students living far away?",
+      "Are outstation children forced to stay in hostel?",
+      "Can outstation students be day scholars instead of hostelers?",
+      "Is hostel a must for students from other cities?"
+    ],
+    "answer": "No, it is optional."
+  },
+  {
+    "intent": "hostel_year_round_admission",
+    "questions": [
+      "Are hostel admissions open year-round?",
+      "Can parents apply for hostel anytime?",
+      "Is hostel enrolment available throughout the year?",
+      "Do you accept hostel applications all year?",
+      "Is hostel open for admission in all months?",
+      "Are hostel seats filled year-round?",
+      "Can students join hostel at any time?",
+      "Is hostel admission seasonal or yearly?",
+      "Are hostel admissions time-bound?"
+    ],
+    "answer": "Mainly during academic admission periods."
+  },
+  {
+    "intent": "hostel_without_school_admission",
+    "questions": [
+      "Can parents apply for hostel without school admission?",
+      "Is school admission required before hostel?",
+      "Can a child stay in hostel without joining the school?",
+      "Is hostel open to non-school students?",
+      "Can students apply only for hostel?",
+      "Do you accept hostel-only applications?",
+      "Is it possible to join hostel without school admission?",
+      "Must parents complete school admission before hostel?",
+      "Is hostel separate from school admission?"
+    ],
+    "answer": "No, school admission is required first."
+  },
+  {
+    "intent": "hostel_separate_from_school_admission",
+    "questions": [
+      "Is hostel admission guaranteed once school admission is given?",
+      "Do school-admitted students automatically get hostel?",
+      "Is hostel seat confirmed after school admission?",
+      "Does school admission include hostel?",
+      "Are both admissions linked together?",
+      "Do students get hostel seat by default after joining school?",
+      "Is hostel assured if school admission is granted?",
+      "Can a student be guaranteed hostel after school admission?",
+      "Is hostel enrollment automatic?"
+    ],
+    "answer": "No, hostel seats are separate."
+  },
+  {
+    "intent": "hostel_room_capacity",
+    "questions": [
+      "How many students stay in one hostel room?",
+      "What is the room capacity in hostel?",
+      "How many children share one room?",
+      "Are rooms shared by multiple students?",
+      "How many students live in a standard hostel room?",
+      "Does hostel have 2 to 6 sharing rooms?",
+      "What is the typical room strength?",
+      "How many boarders stay in a room?",
+      "Are rooms shared or single occupancy?"
+    ],
+    "answer": "Usually 2 to 6 students depending on room type."
+  },
+  {
+    "intent": "hostel_junior_availability",
+    "questions": [
+      "Is hostel available for junior classes?",
+      "Do junior students get hostel accommodation?",
+      "Is hostel open for lower-class children?",
+      "Can young students stay in hostel?",
+      "Do you have separate hostel blocks for juniors?",
+      "Are younger children allowed in hostel?",
+      "Is boarding provided for junior grades?",
+      "Can primary or junior kids join hostel?",
+      "Is there a junior section in the hostel?"
+    ],
+    "answer": "Yes, junior students have separate blocks."
+  },
+  {
+    "intent": "hostel_for_11_12",
+    "questions": [
+      "Is hostel available for Class 11 or 12?",
+      "Do senior secondary students get hostel facility?",
+      "Can Class 11 and 12 students stay in hostel?",
+      "Is boarding open for higher secondary classes?",
+      "Do seniors have separate hostel accommodation?",
+      "Is hostel allowed for 11th and 12th graders?",
+      "Are senior students eligible for hostel stay?",
+      "Does the hostel accept Class 11 or 12 students?",
+      "Can higher class students join hostel?"
+    ],
+    "answer": "Yes, senior classes also have hostel facility."
+  },
+  {
+    "intent": "hostel_separate_boys_girls",
+    "questions": [
+      "Are girls and boys hostels separate?",
+      "Do you provide separate hostel blocks for boys and girls?",
+      "Are hostels divided by gender?",
+      "Do boys and girls stay in different hostels?",
+      "Is there a separate building for girls hostel?",
+      "Are male and female hostels fully separate?",
+      "Are girls and boys hostels located separately?",
+      "Do boys and girls have independent hostels?",
+      "Is hostel accommodation gender-segregated?"
+    ],
+    "answer": "Yes, they are entirely separate."
+  },
+  {
+    "intent": "hostel_seats_limited_yearly",
+    "questions": [
+      "Does hostel have limited seats each year?",
+      "Are hostel seats few and fill quickly?",
+      "Is there high demand for hostel seats?",
+      "Do junior and senior hostel seats fill fast?",
+      "Are yearly hostel seats limited?",
+      "Is hostel capacity restricted annually?",
+      "Do hostel seats get filled early every year?",
+      "Is admission competitive due to limited seats?",
+      "Do hostel seats run out quickly?"
+    ],
+    "answer": "Yes, seats fill quickly for juniors and seniors."
+  },
+  {
+    "intent": "hostel_child_interaction",
+    "questions": [
+      "Does hostel admission include interview with the child?",
+      "Is there a student interaction for hostel entry?",
+      "Do you meet the child before hostel admission?",
+      "Is hostel admission followed by a child interaction?",
+      "Do new hostelers undergo a basic interview?",
+      "Is student interaction part of hostel procedure?",
+      "Must students attend an interview for hostel?",
+      "Is there a child meeting before joining the hostel?",
+      "Do wardens interact with the student before admission?"
+    ],
+    "answer": "A basic interaction may be done."
+  },
+  {
+    "intent": "hostel_compulsory_for_nri",
+    "questions": [
+      "Is hostel compulsory for NRI students?",
+      "Do NRIs have to stay in hostel?",
+      "Must NRI students take hostel accommodation?",
+      "Is hostel mandatory for students from abroad?",
+      "Are NRIs required to be hostelers?",
+      "Do NRI children need to stay in hostel?",
+      "Is hostel a must for NRI applicants?",
+      "Are NRIs forced to stay in boarding?",
+      "Do most NRIs choose the hostel?"
+    ],
+    "answer": "No, but most NRI students choose hostel."
+  },
+  {
+    "intent": "hostel_facilities_list",
+    "questions": [
+      "What facilities are available in the hostel?",
+      "What does the hostel provide?",
+      "What amenities are included in hostel stay?",
+      "What infrastructure is available for hostelers?",
+      "What are the main features of the hostel?",
+      "What do students get inside the hostel?",
+      "What facilities are offered for boarders?",
+      "What provisions are available in the hostel blocks?",
+      "What are the hostel amenities provided?"
+    ],
+    "answer": "The hostel includes dorms, study hall, dining hall, security, and supervision."
+  },
+  {
+    "intent": "hostel_rooms_furnished",
+    "questions": [
+      "Are rooms furnished in the hostel?",
+      "Do hostel rooms have basic furniture?",
+      "Are beds and mattresses provided?",
+      "Is hostel furniture included in the room?",
+      "Do hostelers get furnished accommodation?",
+      "Are rooms equipped with essential furniture?",
+      "Do students receive beds and basic items?",
+      "Is the hostel fully furnished for boarders?",
+      "Do rooms come with standard furnishings?"
+    ],
+    "answer": "Yes, beds, mattresses, and basic furniture are provided."
+  },
+  {
+    "intent": "hostel_bathrooms_attached",
+    "questions": [
+      "Are bathrooms attached in the hostel?",
+      "Do hostel rooms have attached toilets?",
+      "Are washrooms inside the rooms?",
+      "Do students get attached bathrooms?",
+      "Is there an attached bath option in hostel?",
+      "Are washrooms common or attached?",
+      "Do hostel blocks offer attached bathroom facilities?",
+      "Is the hostel bathroom shared or private?",
+      "Are both common and attached bathrooms available?"
+    ],
+    "answer": "Common and attached options may exist depending on block."
+  },
+  {
+    "intent": "hostel_study_hall_available",
+    "questions": [
+      "Is study hall available for hostel students?",
+      "Do hostelers have study hours?",
+      "Is there a separate study area in the hostel?",
+      "Do students get supervised study time?",
+      "Are study sessions provided in hostel?",
+      "Is study room facility available in boarding?",
+      "Do hostel blocks include study halls?",
+      "Do students study inside hostel?",
+      "Are evening study hours arranged?"
+    ],
+    "answer": "Yes, hostel students have separate study hours."
+  },
+  {
+    "intent": "hostel_warden_supervision",
+    "questions": [
+      "Is there 24/7 warden supervision?",
+      "Do wardens stay full-time inside hostel?",
+      "Are hostel wardens available day and night?",
+      "Is round-the-clock supervision offered?",
+      "Are wardens present in hostel all the time?",
+      "Do hostelers get continuous supervision?",
+      "Is hostel monitored full-time by caretakers?",
+      "Do wardens live in the hostel?",
+      "Is constant supervision ensured in hostel?"
+    ],
+    "answer": "Yes, wardens stay inside the hostel."
+  },
+  {
+    "intent": "hostel_cctv_availability",
+    "questions": [
+      "Is CCTV installed in hostel areas?",
+      "Are hostel premises monitored by CCTV?",
+      "Do you have CCTV in common areas?",
+      "Is the campus under surveillance?",
+      "Are hostel corridors and entrances monitored?",
+      "Is CCTV used for safety in hostel?",
+      "Are common areas covered by cameras?",
+      "Do you monitor hostel surroundings by CCTV?",
+      "Is video surveillance present in campus areas?"
+    ],
+    "answer": "CCTV is available in campus common areas."
+  },
+  {
+    "intent": "hostel_laundry_service",
+    "questions": [
+      "Is laundry service provided in hostel?",
+      "Do hostelers get washing facilities?",
+      "Is clothes-washing service available?",
+      "Are laundry arrangements provided?",
+      "Do students get help with washing clothes?",
+      "Is laundry part of hostel services?",
+      "Is washing support available for hostel students?",
+      "Do you offer hostel laundry care?",
+      "Is laundry included in hostel amenities?"
+    ],
+    "answer": "Yes, washing arrangements are available."
+  },
+  {
+    "intent": "hostel_drinking_water",
+    "questions": [
+      "Is safe drinking water provided?",
+      "Do hostelers get purified drinking water?",
+      "Is filtered water available in hostel?",
+      "Do you provide drinking water facility?",
+      "Is RO water available for students?",
+      "Is drinking water purified for hostelers?",
+      "Is safe water available inside hostel blocks?",
+      "Do students get safe drinking water?",
+      "Is clean water accessible in hostel?"
+    ],
+    "answer": "Yes, purified drinking water is available."
+  },
+  {
+    "intent": "hostel_study_tables",
+    "questions": [
+      "Are study tables provided in hostel?",
+      "Do students get study desks?",
+      "Are individual or shared study tables available?",
+      "Do hostel rooms include study tables?",
+      "Is study desk provided for boarders?",
+      "Are study areas furnished with desks?",
+      "Do hostelers get assigned study desks?",
+      "Is there desk space for studying in hostel?",
+      "Are desks provided individually or shared?"
+    ],
+    "answer": "Yes, individual or shared study desks are provided."
+  },
+  {
+    "intent": "hostel_wifi_availability",
+    "questions": [
+      "Is Wi-Fi available in hostel?",
+      "Do hostelers have internet access?",
+      "Is wireless internet allowed in hostel blocks?",
+      "Do students get Wi-Fi inside hostel?",
+      "Is campus Wi-Fi extended to hostel?",
+      "Is hostel internet usage restricted?",
+      "Are students allowed to use Wi-Fi in hostel?",
+      "Is Wi-Fi available only in academic blocks?",
+      "Is hostel area covered by school Wi-Fi?"
+    ],
+    "answer": "School has Wi-Fi facilities in academic blocks; hostel access may be restricted."
+  },
+  {
+    "intent": "hostel_recreation_room",
+    "questions": [
+      "Is there a recreation room in hostel?",
+      "Do hostelers have a common recreation area?",
+      "Is a play or relaxation room available?",
+      "Is there a common room for activities?",
+      "Do boarding students get a recreation facility?",
+      "Is a leisure room available for hostellers?",
+      "Do hostels have indoor recreation spaces?",
+      "Is there an area for students to relax?",
+      "Is a recreation hall part of the hostel?"
+    ],
+    "answer": "Yes, common recreation areas are present."
+  },
+  {
+    "intent": "hostel_indoor_games",
+    "questions": [
+      "Are indoor games available in hostel?",
+      "Do hostelers get indoor play options?",
+      "Is carrom or chess provided in hostel?",
+      "Do students have indoor game facilities?",
+      "Are indoor recreational activities available?",
+      "Does the hostel include games like carrom?",
+      "Are board games offered in hostel?",
+      "Do boarding students get indoor entertainment?",
+      "Are indoor sports allowed in hostel?"
+    ],
+    "answer": "Yes, indoor games like carrom and chess are provided."
+  },
+  {
+    "intent": "hostel_tv_access",
+    "questions": [
+      "Is TV available in hostel?",
+      "Do hostel students get TV access?",
+      "Is television provided in common room?",
+      "Do hostels have TV for students?",
+      "Is limited TV time allowed?",
+      "Can hostelers watch TV?",
+      "Is the common room equipped with TV?",
+      "Do students get entertainment TV?",
+      "Is television access restricted in hostel?"
+    ],
+    "answer": "Limited TV access may be provided in common room."
+  },
+  {
+    "intent": "hostel_room_cleaning",
+    "questions": [
+      "How often are hostel rooms cleaned?",
+      "Is room cleaning done regularly?",
+      "How frequently are rooms maintained?",
+      "Do housekeeping staff clean hostel rooms?",
+      "Is daily cleaning provided in hostel?",
+      "Are rooms cleaned on schedule?",
+      "How is hostel room hygiene maintained?",
+      "Is housekeeping available for hostels?",
+      "Are rooms cleaned by staff?"
+    ],
+    "answer": "Rooms are cleaned regularly by housekeeping."
+  },
+  {
+    "intent": "hostel_power_backup",
+    "questions": [
+      "Does the hostel have emergency power backup?",
+      "Is there power backup available for hostel?",
+      "Do hostel blocks have emergency electricity?",
+      "Is generator facility provided for hostels?",
+      "Is essential power supported during outages?",
+      "Is backup electricity available for hostelers?",
+      "Does hostel have basic power backup?",
+      "Are hostels equipped with emergency power?",
+      "Do essential services continue during power cuts?"
+    ],
+    "answer": "The school infrastructure supports essential services."
+  },
+  {
+    "intent": "hostel_storage_cupboards",
+    "questions": [
+      "Are personal cupboards provided in hostel?",
+      "Do students get lockers in hostel?",
+      "Is storage space available for hostelers?",
+      "Are cupboards provided for personal belongings?",
+      "Do rooms include individual lockers?",
+      "Is there a storage unit for each student?",
+      "Are personal lockers available in hostel rooms?",
+      "Do hostelers get cupboard space?",
+      "Is safe storage provided for students?"
+    ],
+    "answer": "Yes, lockers or cupboards are available."
+  },
+  {
+    "intent": "hostel_parent_room_entry",
+    "questions": [
+      "Are parents allowed inside hostel rooms?",
+      "Can parents enter hostel rooms during visits?",
+      "Are parents permitted inside hostel beyond visiting hours?",
+      "Can parents go inside the hostel blocks?",
+      "Do parents have room access during visiting hours?",
+      "Is room entry allowed for parents?",
+      "Can guardians visit hostel rooms?",
+      "Is room entry restricted except during visiting hours?",
+      "Are parents allowed into hostel premises anytime?"
+    ],
+    "answer": "Usually only during visiting hours."
+  },
+  {
+    "intent": "hostel_separate_dining",
+    "questions": [
+      "Do hostel blocks have separate dining halls?",
+      "Is there a dedicated dining hall for hostelers?",
+      "Do hostel students eat in a separate dining area?",
+      "Are hostel meals served in their own dining hall?",
+      "Is dining facility separate from day scholars?",
+      "Do hostels have their own dining blocks?",
+      "Is there a separate mess hall for hostel students?",
+      "Do hostelers have their own eating space?",
+      "Is the dining hall exclusive for hostelers?"
+    ],
+    "answer": "Yes, hostel students have their own dining area."
+  },
+  {
+    "intent": "hostel_hot_water",
+    "questions": [
+      "Is hot water available in the hostel?",
+      "Do students get hot water in the morning?",
+      "Is hot water facility provided to hostelers?",
+      "Can hostel students use hot water daily?",
+      "Do bathrooms have hot water access?",
+      "Is heated water given during bath time?",
+      "Is hot water supply available for boarders?",
+      "Do students get warm water for bathing?",
+      "Is hot water provided at fixed timings?"
+    ],
+    "answer": "Hot water is provided during morning hours."
+  },
+  {
+    "intent": "hostel_lights_out_timing",
+    "questions": [
+      "Are lights-out timings fixed in hostel?",
+      "Do hostelers follow fixed sleeping time?",
+      "Is there a set time for lights off?",
+      "Are hostel schedules strict for night timings?",
+      "Is bedtime fixed in the hostel?",
+      "Do students need to turn off lights at a specific time?",
+      "Are night hours regulated in hostel?",
+      "Does hostel follow a fixed routine for sleep time?",
+      "Is lights-out compulsory every night?"
+    ],
+    "answer": "Yes, hostels follow fixed schedules."
+  }
+]

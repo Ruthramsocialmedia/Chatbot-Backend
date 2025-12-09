@@ -1,11 +1,17 @@
-// controllers/aiIntentRouter.js — ULTRA-STABLE FINAL VERSION
-// Panorama + Project Intent Router (Case-insensitive + Fuzzy Matching)
+// controllers/aiIntentRouter.js — ULTRA-STABLE FINAL VERSION (UPDATED)
+// Navigation-aware + Auto-correct + Fuzzy Matching
 
 export function aiIntentRouter(question, panoNames = [], projectNames = []) {
   if (!question) return { intent: "school" };
 
   /* ------------------------------------------------------------
-     1) BASIC NORMALIZATION
+     1) NAVIGATION VERB DETECTION (must exist to open pano/project)
+  ------------------------------------------------------------ */
+  const navRegex = /\b(go to|go|goto|open|show|view|take me to|take me|navigate|visit|see|check|look at)\b/i;
+  const userHasNavIntent = navRegex.test(question);
+
+  /* ------------------------------------------------------------
+     2) BASIC NORMALIZATION
   ------------------------------------------------------------ */
   let raw = question.toLowerCase().trim();
 
@@ -15,7 +21,7 @@ export function aiIntentRouter(question, panoNames = [], projectNames = []) {
     ""
   );
 
-  // Remove articles & filler words
+  // Remove filler words
   raw = raw.replace(/\b(the|a|an|please|pls|kindly|can you|could you)\b/g, "");
 
   // Remove punctuation + numbers
@@ -27,25 +33,55 @@ export function aiIntentRouter(question, panoNames = [], projectNames = []) {
 
   if (!cleaned) return { intent: "school" };
 
-  /* ============================================================
-     2) EXACT PANORAMA MATCH (strict)
-  ============================================================ */
+  /* ------------------------------------------------------------
+     3) AUTO-CORRECT TARGET NAME (Fix spelling mistakes)
+  ------------------------------------------------------------ */
+  function autoCorrectTarget(name, panoList, projectList) {
+    const all = [...panoList, ...projectList];
+    const target = name.toLowerCase();
+
+    let best = target;
+    let bestDist = 999;
+
+    for (const item of all) {
+      const d = levenshteinDistance(item.toLowerCase(), target);
+      if (d < bestDist) {
+        bestDist = d;
+        best = item.toLowerCase();
+      }
+    }
+
+    // Allow corrections up to distance 3
+    if (bestDist <= 3) return best;
+    return target;
+  }
+
+  // Apply auto-correct ONLY when user intends navigation
+  if (userHasNavIntent) {
+    cleaned = autoCorrectTarget(cleaned, panoNames, projectNames);
+  }
+
+  /* ------------------------------------------------------------
+     4) STOP HERE if no navigation verb → treat as SCHOOL query
+  ------------------------------------------------------------ */
+  if (!userHasNavIntent) {
+    return { intent: "school" };
+  }
+
+  /* ------------------------------------------------------------
+     5) EXACT PANORAMA MATCH
+  ------------------------------------------------------------ */
   const panoExact = panoNames.find(
     (p) => p.toLowerCase() === cleaned
   );
+
   if (panoExact) {
     return { intent: "pano", target: panoExact };
   }
 
-  /* ============================================================
-     3) PANORAMA — STRONG FUZZY MATCH
-     Handles:
-     ✓ guest room
-     ✓ guestroom
-     ✓ gust room
-     ✓ gest rum
-     ✓ gues rom
-  ============================================================ */
+  /* ------------------------------------------------------------
+     6) PANORAMA — STRONG FUZZY MATCH
+  ------------------------------------------------------------ */
   const panoFuzzy = panoNames.find((p) => {
     const t = p.toLowerCase();
 
@@ -60,19 +96,20 @@ export function aiIntentRouter(question, panoNames = [], projectNames = []) {
     return { intent: "pano", target: panoFuzzy };
   }
 
-  /* ============================================================
-     4) EXACT PROJECT MATCH
-  ============================================================ */
+  /* ------------------------------------------------------------
+     7) EXACT PROJECT MATCH
+  ------------------------------------------------------------ */
   const projExact = projectNames.find(
     (p) => p.toLowerCase() === cleaned
   );
+
   if (projExact) {
     return { intent: "project", target: projExact };
   }
 
-  /* ============================================================
-     5) PROJECT — STRONG FUZZY MATCH
-  ============================================================ */
+  /* ------------------------------------------------------------
+     8) PROJECT — STRONG FUZZY MATCH
+  ------------------------------------------------------------ */
   const projFuzzy = projectNames.find((p) => {
     const t = p.toLowerCase();
 
@@ -87,15 +124,14 @@ export function aiIntentRouter(question, panoNames = [], projectNames = []) {
     return { intent: "project", target: projFuzzy };
   }
 
-  /* ============================================================
-     6) DEFAULT → SCHOOL CHATBOT
-  ============================================================ */
+  /* ------------------------------------------------------------
+     9) DEFAULT → SCHOOL CHATBOT
+  ------------------------------------------------------------ */
   return { intent: "school" };
 }
 
 /* ------------------------------------------------------------
    LEVENSHTEIN DISTANCE
-   Used for fuzzy matching user typos & merged words.
 ------------------------------------------------------------ */
 function levenshteinDistance(a, b) {
   if (!a || !b) return 99;
@@ -115,9 +151,9 @@ function levenshteinDistance(a, b) {
       const cost = a[i - 1] === b[j - 1] ? 0 : 1;
 
       dp[i][j] = Math.min(
-        dp[i - 1][j] + 1,       // deletion
-        dp[i][j - 1] + 1,       // insertion
-        dp[i - 1][j - 1] + cost // substitution
+        dp[i - 1][j] + 1,
+        dp[i][j - 1] + 1,
+        dp[i - 1][j - 1] + cost
       );
     }
   }
